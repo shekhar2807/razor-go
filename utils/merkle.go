@@ -6,6 +6,7 @@ import (
 )
 
 func (*MerkleTreeStruct) CreateMerkle(values []*big.Int) [][][]byte {
+
 	var tree [][][]byte
 	var leaves [][]byte
 	for i := 0; i < len(values); i++ {
